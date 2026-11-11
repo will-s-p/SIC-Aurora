@@ -1,0 +1,46 @@
+
+SIC-AURORA | Simulador de energia da colonia Aurora Siger
+1 - Rodar um cenario
+2 - Rodar os seis cenarios
+3 - Informar meus proprios dados
+0 - Sair
+Opcao: 
+Edite apenas o que desejar. ENTER mantem o valor de exemplo.
+Solar agora (kWh) [45.0]: Eolica agora (kWh) [30.0]: Solar na proxima hora (kWh) [42.0]: Vento previsto (m/s) [12.0]: Reserva atual (kWh) [90.0]: Ha tempestade? (s/N): 
+Dica: altere consumo de um subsistema pelo nome, ou ENTER para manter.
+Sistema (ex.: Laboratorio): Sistema nao encontrado; consumos mantidos.
+
+================================================================
+SIMULACAO PERSONALIZADA
+================================================================
+Geracao atual: 75.0 kWh
+Consumo inicial: 70.0 kWh
+Consumo apos eventuais cortes: 70.0 kWh
+Reserva inicial: 90.0 kWh
+Reserva ao fim da hora atual: 95.0 kWh
+Eolica prevista: 0.0 kWh
+Geracao total prevista: 42.0 kWh
+Consumo planejado da proxima hora: 70.0 kWh
+Reserva prevista apos decisoes: 67.0 kWh
+Modelo eolico: energia = 2.60 * vento -1.60
+Erro medio absoluto nos dados: 0.56 kWh
+Coeficiente de determinacao R2: 0.9898
+
+DECISOES (por gravidade):
+  [ALERTA] Vento extremo: turbina parada por seguranca (limite simulado de 25 m/s).
+  [ATENCAO] Vento fora da faixa historica: a previsao e uma extrapolacao.
+  [SUGESTAO] Armazenar 5.0 kWh do excedente desta hora.
+
+SIC-AURORA | Simulador de energia da colonia Aurora Siger
+1 - Rodar um cenario
+2 - Rodar os seis cenarios
+3 - Informar meus proprios dados
+0 - Sair
+Opcao: Opcao invalida.
+
+SIC-AURORA | Simulador de energia da colonia Aurora Siger
+1 - Rodar um cenario
+2 - Rodar os seis cenarios
+3 - Informar meus proprios dados
+0 - Sair
+Opcao: Encerrado.

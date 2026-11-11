@@ -1,0 +1,21 @@
+test_bateria_cheia_perde_excedente (test_sistema.TestesEstruturaEDecisoes.test_bateria_cheia_perde_excedente) ... ok
+test_cenario_estavel_guarda_excedente (test_sistema.TestesEstruturaEDecisoes.test_cenario_estavel_guarda_excedente) ... ok
+test_emergencia_nao_desliga_essenciais (test_sistema.TestesEstruturaEDecisoes.test_emergencia_nao_desliga_essenciais) ... ok
+test_falta_mesmo_apos_cortes_gera_alerta_manual (test_sistema.TestesEstruturaEDecisoes.test_falta_mesmo_apos_cortes_gera_alerta_manual) ... ok
+test_hierarquia_busca_e_consumo (test_sistema.TestesEstruturaEDecisoes.test_hierarquia_busca_e_consumo) ... ok
+test_nao_modifica_cenario_original (test_sistema.TestesEstruturaEDecisoes.test_nao_modifica_cenario_original) ... ok
+test_previsao_fora_do_historico_gera_aviso (test_sistema.TestesEstruturaEDecisoes.test_previsao_fora_do_historico_gera_aviso) ... ok
+test_queda_prevista_causa_corte_preventivo (test_sistema.TestesEstruturaEDecisoes.test_queda_prevista_causa_corte_preventivo) ... ok
+test_regra_booleana_de_risco_combinado (test_sistema.TestesEstruturaEDecisoes.test_regra_booleana_de_risco_combinado) ... ok
+test_rejeita_reserva_maior_que_capacidade (test_sistema.TestesEstruturaEDecisoes.test_rejeita_reserva_maior_que_capacidade) ... ok
+test_selection_sort_desliga_menos_importante_primeiro (test_sistema.TestesEstruturaEDecisoes.test_selection_sort_desliga_menos_importante_primeiro) ... ok
+test_tempestade_e_frio_sao_riscos_independentes (test_sistema.TestesEstruturaEDecisoes.test_tempestade_e_frio_sao_riscos_independentes) ... ok
+test_vento_extremo_para_turbina (test_sistema.TestesEstruturaEDecisoes.test_vento_extremo_para_turbina) ... ok
+test_regressao_e_previsao (test_sistema.TestesMatematica.test_regressao_e_previsao) ... ok
+test_rejeita_lista_invalida (test_sistema.TestesMatematica.test_rejeita_lista_invalida) ... ok
+test_residuos_e_r2 (test_sistema.TestesMatematica.test_residuos_e_r2) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.003s
+
+OK

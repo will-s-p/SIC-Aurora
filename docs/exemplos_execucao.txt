@@ -1,0 +1,148 @@
+
+SIC-AURORA | Simulador de energia da colonia Aurora Siger
+1 - Rodar um cenario
+2 - Rodar os seis cenarios
+3 - Informar meus proprios dados
+0 - Sair
+Opcao: 
+================================================================
+1 - OPERACAO ESTAVEL
+================================================================
+Geracao atual: 75.0 kWh
+Consumo inicial: 70.0 kWh
+Consumo apos eventuais cortes: 70.0 kWh
+Reserva inicial: 90.0 kWh
+Reserva ao fim da hora atual: 95.0 kWh
+Eolica prevista: 29.6 kWh
+Geracao total prevista: 71.6 kWh
+Consumo planejado da proxima hora: 70.0 kWh
+Reserva prevista apos decisoes: 96.6 kWh
+Modelo eolico: energia = 2.60 * vento -1.60
+Erro medio absoluto nos dados: 0.56 kWh
+Coeficiente de determinacao R2: 0.9898
+
+DECISOES (por gravidade):
+  [SUGESTAO] Armazenar 5.0 kWh do excedente desta hora.
+
+================================================================
+2 - QUEDA DE GERACAO
+================================================================
+Geracao atual: 42.0 kWh
+Consumo inicial: 70.0 kWh
+Consumo apos eventuais cortes: 70.0 kWh
+Reserva inicial: 105.0 kWh
+Reserva ao fim da hora atual: 77.0 kWh
+Eolica prevista: 24.4 kWh
+Geracao total prevista: 39.4 kWh
+Consumo planejado da proxima hora: 66.0 kWh
+Reserva prevista apos decisoes: 50.4 kWh
+Modelo eolico: energia = 2.60 * vento -1.60
+Erro medio absoluto nos dados: 0.56 kWh
+Coeficiente de determinacao R2: 0.9898
+
+DECISOES (por gravidade):
+  [ALERTA] Consumo atual supera geracao em 28.0 kWh; uso da reserva.
+  [ALERTA] Geracao insuficiente e reserva prevista baixa: priorizar economia.
+  [ATENCAO] Reserva prevista de 46.4 kWh abaixo da meta de 50.0 kWh; avaliar economia preventiva.
+  [ATENCAO] Desligar na proxima hora: Iluminacao externa.
+
+================================================================
+3 - EMERGENCIA ENERGETICA
+================================================================
+Geracao atual: 20.0 kWh
+Consumo inicial: 70.0 kWh
+Consumo apos eventuais cortes: 40.0 kWh
+Reserva inicial: 25.0 kWh
+Reserva ao fim da hora atual: 5.0 kWh
+Eolica prevista: 19.2 kWh
+Geracao total prevista: 27.2 kWh
+Consumo planejado da proxima hora: 40.0 kWh
+Reserva prevista apos decisoes: 0.0 kWh
+Modelo eolico: energia = 2.60 * vento -1.60
+Erro medio absoluto nos dados: 0.56 kWh
+Coeficiente de determinacao R2: 0.9898
+
+DECISOES (por gravidade):
+  [CRITICO] Demanda atual maior que geracao + reserva; iniciar cortes emergenciais.
+  [CRITICO] Desligar agora: Iluminacao externa (nao essencial).
+  [CRITICO] Desligar agora: Conforto (nao essencial).
+  [CRITICO] Desligar agora: Laboratorio (nao essencial).
+  [CRITICO] Projecao indica falta de 7.8 kWh na proxima hora, mesmo apos os cortes; providenciar fonte extra.
+  [ALERTA] Consumo atual supera geracao em 20.0 kWh; uso da reserva.
+  [ALERTA] Geracao insuficiente e reserva prevista baixa: priorizar economia.
+  [ATENCAO] Reserva prevista de 0.0 kWh abaixo da meta de 50.0 kWh; avaliar economia preventiva.
+
+================================================================
+4 - RISCO AO SUPORTE A VIDA
+================================================================
+Geracao atual: 2.0 kWh
+Consumo inicial: 70.0 kWh
+Consumo apos eventuais cortes: 40.0 kWh
+Reserva inicial: 12.0 kWh
+Reserva ao fim da hora atual: 0.0 kWh
+Eolica prevista: 19.2 kWh
+Geracao total prevista: 20.2 kWh
+Consumo planejado da proxima hora: 40.0 kWh
+Reserva prevista apos decisoes: 0.0 kWh
+Modelo eolico: energia = 2.60 * vento -1.60
+Erro medio absoluto nos dados: 0.56 kWh
+Coeficiente de determinacao R2: 0.9898
+
+DECISOES (por gravidade):
+  [CRITICO] Demanda atual maior que geracao + reserva; iniciar cortes emergenciais.
+  [CRITICO] Desligar agora: Iluminacao externa (nao essencial).
+  [CRITICO] Desligar agora: Conforto (nao essencial).
+  [CRITICO] Desligar agora: Laboratorio (nao essencial).
+  [CRITICO] Mesmo apos os cortes faltam 26.0 kWh para a hora atual. Acionar equipe e fonte de emergencia; nao desligar suporte a vida.
+  [CRITICO] Projecao indica falta de 19.8 kWh na proxima hora, mesmo apos os cortes; providenciar fonte extra.
+  [ALERTA] Consumo atual supera geracao em 38.0 kWh; uso da reserva.
+  [ALERTA] Geracao insuficiente e reserva prevista baixa: priorizar economia.
+  [ATENCAO] Reserva prevista de 0.0 kWh abaixo da meta de 50.0 kWh; avaliar economia preventiva.
+
+================================================================
+5 - TEMPESTADE E FRIO EXTREMO
+================================================================
+Geracao atual: 75.0 kWh
+Consumo inicial: 70.0 kWh
+Consumo apos eventuais cortes: 70.0 kWh
+Reserva inicial: 100.0 kWh
+Reserva ao fim da hora atual: 105.0 kWh
+Eolica prevista: 34.8 kWh
+Geracao total prevista: 69.8 kWh
+Consumo planejado da proxima hora: 70.0 kWh
+Reserva prevista apos decisoes: 104.8 kWh
+Modelo eolico: energia = 2.60 * vento -1.60
+Erro medio absoluto nos dados: 0.56 kWh
+Coeficiente de determinacao R2: 0.9898
+
+DECISOES (por gravidade):
+  [ALERTA] Tempestade registrada: suspender atividades externas.
+  [ALERTA] Frio extremo: verificar aquecimento do suporte a vida.
+  [SUGESTAO] Armazenar 5.0 kWh do excedente desta hora.
+
+================================================================
+6 - EXCESSO DE GERACAO
+================================================================
+Geracao atual: 110.0 kWh
+Consumo inicial: 70.0 kWh
+Consumo apos eventuais cortes: 70.0 kWh
+Reserva inicial: 198.0 kWh
+Reserva ao fim da hora atual: 200.0 kWh
+Eolica prevista: 34.8 kWh
+Geracao total prevista: 92.8 kWh
+Consumo planejado da proxima hora: 70.0 kWh
+Reserva prevista apos decisoes: 200.0 kWh
+Modelo eolico: energia = 2.60 * vento -1.60
+Erro medio absoluto nos dados: 0.56 kWh
+Coeficiente de determinacao R2: 0.9898
+
+DECISOES (por gravidade):
+  [SUGESTAO] Armazenar 2.0 kWh do excedente desta hora.
+  [SUGESTAO] Excedente sem espaco na bateria: 38.0 kWh.
+
+SIC-AURORA | Simulador de energia da colonia Aurora Siger
+1 - Rodar um cenario
+2 - Rodar os seis cenarios
+3 - Informar meus proprios dados
+0 - Sair
+Opcao: Encerrado.
